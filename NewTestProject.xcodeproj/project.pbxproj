@@ -15,6 +15,7 @@
 		3C57C179298AEFD4001C6CBB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57C178298AEFD4001C6CBB /* Product.swift */; };
 		3C57C17B298AEFF7001C6CBB /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57C17A298AEFF7001C6CBB /* DataStore.swift */; };
 		3C57C17D298AF454001C6CBB /* CatalogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57C17C298AF454001C6CBB /* CatalogeViewController.swift */; };
+		3CB5992F298D239F00332EE5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5992E298D239F00332EE5 /* CartViewController.swift */; };
 		3CD95A8A298B3A6D00E8AFF8 /* CatalogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD95A89298B3A6D00E8AFF8 /* CatalogListViewController.swift */; };
 		3CD95A8C298B3BA100E8AFF8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD95A8B298B3BA100E8AFF8 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		3C57C178298AEFD4001C6CBB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3C57C17A298AEFF7001C6CBB /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		3C57C17C298AF454001C6CBB /* CatalogeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogeViewController.swift; sourceTree = "<group>"; };
+		3CB5992E298D239F00332EE5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		3CD95A89298B3A6D00E8AFF8 /* CatalogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogListViewController.swift; sourceTree = "<group>"; };
 		3CD95A8B298B3BA100E8AFF8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 				3C57C178298AEFD4001C6CBB /* Product.swift */,
 				3C57C17A298AEFF7001C6CBB /* DataStore.swift */,
 				3CD95A89298B3A6D00E8AFF8 /* CatalogListViewController.swift */,
+				3CB5992E298D239F00332EE5 /* CartViewController.swift */,
 			);
 			path = NewTestProject;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				3C57C165298AEF92001C6CBB /* AppDelegate.swift in Sources */,
 				3C57C17B298AEFF7001C6CBB /* DataStore.swift in Sources */,
 				3CD95A8C298B3BA100E8AFF8 /* CustomTableViewCell.swift in Sources */,
+				3CB5992F298D239F00332EE5 /* CartViewController.swift in Sources */,
 				3C57C17D298AF454001C6CBB /* CatalogeViewController.swift in Sources */,
 				3CD95A8A298B3A6D00E8AFF8 /* CatalogListViewController.swift in Sources */,
 				3C57C167298AEF92001C6CBB /* SceneDelegate.swift in Sources */,

@@ -115,6 +115,7 @@
                                             <outlet property="iconImageView" destination="R8y-xD-UhV" id="OPb-AA-kQe"/>
                                             <outlet property="nameLabel" destination="31c-U8-s2M" id="Voe-Wa-Qz2"/>
                                             <outlet property="priceLabel" destination="Whi-Mk-EAM" id="ubu-Z7-G7o"/>
+                                            <segue destination="Ekx-1c-maT" kind="presentation" id="hQb-cG-9xp"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -137,6 +138,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dox-mt-Ema" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1774.8091603053435" y="43.661971830985919"/>
+        </scene>
+        <!--Cart View Controller-->
+        <scene sceneID="mjc-NP-UOn">
+            <objects>
+                <viewController id="Ekx-1c-maT" customClass="CartViewController" customModule="NewTestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WKK-U4-LgJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xUk-DC-Y0J">
+                                <rect key="frame" x="76" y="148" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ik-W2-iyj">
+                                <rect key="frame" x="0.0" y="445" width="359" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PUj-x4-Akm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="xUk-DC-Y0J" id="0xs-jH-ufy"/>
+                        <outlet property="labelView" destination="5Ik-W2-iyj" id="ggR-Lw-qjO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0WR-EE-beR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2735.1145038167938" y="37.323943661971832"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LSN-C2-FnM">

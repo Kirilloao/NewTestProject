@@ -26,7 +26,6 @@ struct Product {
     }
 }
 
-let appleProducts = ["Mac", "iPhone", "AirPods", "iPad", "Watch"]
 
 extension Product {
     static func getProducts() -> [Product] {
